@@ -56,7 +56,7 @@ class TopRatedViewController: UIViewController {
     func setupBindings() {
          viewModel.$topRatedMovies
              .receive(on: DispatchQueue.main)
-             .sink { [weak self] _ in
+             .sink { [weak self] _ in // arc -retain cicle
                  self?.collectionView.reloadData()
              }
              .store(in: &cancellables)

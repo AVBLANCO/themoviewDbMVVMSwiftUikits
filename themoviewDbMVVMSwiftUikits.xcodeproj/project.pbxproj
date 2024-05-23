@@ -34,6 +34,14 @@
 		886488972BFF754E00CCC6DF /* Simulator Screenshot - iPhone 15 Pro - 2024-05-23 at 07.57.05.png in Resources */ = {isa = PBXBuildFile; fileRef = 886488942BFF754C00CCC6DF /* Simulator Screenshot - iPhone 15 Pro - 2024-05-23 at 07.57.05.png */; };
 		886488982BFF754E00CCC6DF /* Simulator Screenshot - iPhone 15 Pro - 2024-05-23 at 07.57.08.png in Resources */ = {isa = PBXBuildFile; fileRef = 886488952BFF754C00CCC6DF /* Simulator Screenshot - iPhone 15 Pro - 2024-05-23 at 07.57.08.png */; };
 		886488992BFF754E00CCC6DF /* Simulator Screen Recording - iPhone 15 Pro - 2024-05-23 at 07.58.07.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 886488962BFF754E00CCC6DF /* Simulator Screen Recording - iPhone 15 Pro - 2024-05-23 at 07.58.07.mp4 */; };
+		8864889C2BFF767900CCC6DF /* Captura de pantalla 2024-05-20 a la(s) 10.41.56 p. m..png in Resources */ = {isa = PBXBuildFile; fileRef = 8864889A2BFF767900CCC6DF /* Captura de pantalla 2024-05-20 a la(s) 10.41.56 p. m..png */; };
+		8864889D2BFF767900CCC6DF /* Captura de pantalla 2024-05-23 a la(s) 7.56.48 a. m..png in Resources */ = {isa = PBXBuildFile; fileRef = 8864889B2BFF767900CCC6DF /* Captura de pantalla 2024-05-23 a la(s) 7.56.48 a. m..png */; };
+		886488A02BFF77F300CCC6DF /* TopRatedViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8864889F2BFF77F300CCC6DF /* TopRatedViewModelTests.swift */; };
+		886488A22BFF785700CCC6DF /* TopRatedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886488A12BFF785700CCC6DF /* TopRatedViewControllerTests.swift */; };
+		886488A52BFF78B000CCC6DF /* ImageLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886488A42BFF78B000CCC6DF /* ImageLoaderTests.swift */; };
+		886488A72BFF78F900CCC6DF /* APIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886488A62BFF78F900CCC6DF /* APIManagerTests.swift */; };
+		886488AA2BFF793700CCC6DF /* PopularViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886488A92BFF793700CCC6DF /* PopularViewModelTests.swift */; };
+		886488AC2BFF797100CCC6DF /* PopularViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886488AB2BFF797100CCC6DF /* PopularViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +93,14 @@
 		886488942BFF754C00CCC6DF /* Simulator Screenshot - iPhone 15 Pro - 2024-05-23 at 07.57.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 Pro - 2024-05-23 at 07.57.05.png"; sourceTree = "<group>"; };
 		886488952BFF754C00CCC6DF /* Simulator Screenshot - iPhone 15 Pro - 2024-05-23 at 07.57.08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 Pro - 2024-05-23 at 07.57.08.png"; sourceTree = "<group>"; };
 		886488962BFF754E00CCC6DF /* Simulator Screen Recording - iPhone 15 Pro - 2024-05-23 at 07.58.07.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simulator Screen Recording - iPhone 15 Pro - 2024-05-23 at 07.58.07.mp4"; sourceTree = "<group>"; };
+		8864889A2BFF767900CCC6DF /* Captura de pantalla 2024-05-20 a la(s) 10.41.56 p. m..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Captura de pantalla 2024-05-20 a la(s) 10.41.56 p. m..png"; sourceTree = "<group>"; };
+		8864889B2BFF767900CCC6DF /* Captura de pantalla 2024-05-23 a la(s) 7.56.48 a. m..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Captura de pantalla 2024-05-23 a la(s) 7.56.48 a. m..png"; sourceTree = "<group>"; };
+		8864889F2BFF77F300CCC6DF /* TopRatedViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedViewModelTests.swift; sourceTree = "<group>"; };
+		886488A12BFF785700CCC6DF /* TopRatedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedViewControllerTests.swift; sourceTree = "<group>"; };
+		886488A42BFF78B000CCC6DF /* ImageLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderTests.swift; sourceTree = "<group>"; };
+		886488A62BFF78F900CCC6DF /* APIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerTests.swift; sourceTree = "<group>"; };
+		886488A92BFF793700CCC6DF /* PopularViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewModelTests.swift; sourceTree = "<group>"; };
+		886488AB2BFF797100CCC6DF /* PopularViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +171,9 @@
 		886488482BFF0C8600CCC6DF /* themoviewDbMVVMSwiftUikitsTests */ = {
 			isa = PBXGroup;
 			children = (
+				886488A82BFF791E00CCC6DF /* Popular */,
+				886488A32BFF789F00CCC6DF /* Resourves */,
+				8864889E2BFF77DA00CCC6DF /* TopRated */,
 				886488492BFF0C8600CCC6DF /* themoviewDbMVVMSwiftUikitsTests.swift */,
 			);
 			path = themoviewDbMVVMSwiftUikitsTests;
@@ -302,11 +321,40 @@
 		886488932BFF74F700CCC6DF /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				8864889A2BFF767900CCC6DF /* Captura de pantalla 2024-05-20 a la(s) 10.41.56 p. m..png */,
+				8864889B2BFF767900CCC6DF /* Captura de pantalla 2024-05-23 a la(s) 7.56.48 a. m..png */,
 				886488962BFF754E00CCC6DF /* Simulator Screen Recording - iPhone 15 Pro - 2024-05-23 at 07.58.07.mp4 */,
 				886488942BFF754C00CCC6DF /* Simulator Screenshot - iPhone 15 Pro - 2024-05-23 at 07.57.05.png */,
 				886488952BFF754C00CCC6DF /* Simulator Screenshot - iPhone 15 Pro - 2024-05-23 at 07.57.08.png */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		8864889E2BFF77DA00CCC6DF /* TopRated */ = {
+			isa = PBXGroup;
+			children = (
+				8864889F2BFF77F300CCC6DF /* TopRatedViewModelTests.swift */,
+				886488A12BFF785700CCC6DF /* TopRatedViewControllerTests.swift */,
+			);
+			path = TopRated;
+			sourceTree = "<group>";
+		};
+		886488A32BFF789F00CCC6DF /* Resourves */ = {
+			isa = PBXGroup;
+			children = (
+				886488A42BFF78B000CCC6DF /* ImageLoaderTests.swift */,
+				886488A62BFF78F900CCC6DF /* APIManagerTests.swift */,
+			);
+			path = Resourves;
+			sourceTree = "<group>";
+		};
+		886488A82BFF791E00CCC6DF /* Popular */ = {
+			isa = PBXGroup;
+			children = (
+				886488A92BFF793700CCC6DF /* PopularViewModelTests.swift */,
+				886488AB2BFF797100CCC6DF /* PopularViewControllerTests.swift */,
+			);
+			path = Popular;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,12 +463,14 @@
 			files = (
 				8864883F2BFF0C8600CCC6DF /* LaunchScreen.storyboard in Resources */,
 				886488992BFF754E00CCC6DF /* Simulator Screen Recording - iPhone 15 Pro - 2024-05-23 at 07.58.07.mp4 in Resources */,
+				8864889C2BFF767900CCC6DF /* Captura de pantalla 2024-05-20 a la(s) 10.41.56 p. m..png in Resources */,
 				886488792BFF130F00CCC6DF /* PopularViewController.xib in Resources */,
 				886488972BFF754E00CCC6DF /* Simulator Screenshot - iPhone 15 Pro - 2024-05-23 at 07.57.05.png in Resources */,
 				8864883C2BFF0C8600CCC6DF /* Assets.xcassets in Resources */,
 				886488982BFF754E00CCC6DF /* Simulator Screenshot - iPhone 15 Pro - 2024-05-23 at 07.57.08.png in Resources */,
 				886488922BFF165200CCC6DF /* DetailViewController.xib in Resources */,
 				8864888E2BFF161000CCC6DF /* TopRatedCollectionViewCell.xib in Resources */,
+				8864889D2BFF767900CCC6DF /* Captura de pantalla 2024-05-23 a la(s) 7.56.48 a. m..png in Resources */,
 				8864887F2BFF13C900CCC6DF /* TopRatedViewController.xib in Resources */,
 				8864883A2BFF0C8300CCC6DF /* Main.storyboard in Resources */,
 				886488882BFF15D800CCC6DF /* PopularTableViewCell.xib in Resources */,
@@ -468,7 +518,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886488AC2BFF797100CCC6DF /* PopularViewControllerTests.swift in Sources */,
 				8864884A2BFF0C8600CCC6DF /* themoviewDbMVVMSwiftUikitsTests.swift in Sources */,
+				886488A02BFF77F300CCC6DF /* TopRatedViewModelTests.swift in Sources */,
+				886488A52BFF78B000CCC6DF /* ImageLoaderTests.swift in Sources */,
+				886488A22BFF785700CCC6DF /* TopRatedViewControllerTests.swift in Sources */,
+				886488AA2BFF793700CCC6DF /* PopularViewModelTests.swift in Sources */,
+				886488A72BFF78F900CCC6DF /* APIManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
