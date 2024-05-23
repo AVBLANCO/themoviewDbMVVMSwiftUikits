@@ -36,7 +36,8 @@ class DetailViewController: UIViewController {
             }.resume()
         }
         descriptionMovie.text = movie.overview
-        labelAverague.text = "Average: \(movie.voteAverage)"
+        let formattedAverage = String(format: "%.2f", movie.voteAverage)
+        labelAverague.text = "Average: \(formattedAverage)"
         labelLenguague.text = "Language: \(movie.originalLanguage)"
     }
 }

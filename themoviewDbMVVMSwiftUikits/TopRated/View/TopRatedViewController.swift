@@ -79,8 +79,21 @@ extension TopRatedViewController: UICollectionViewDelegate, UICollectionViewData
         cell.configure(with: movie)
         return cell
     }
-}
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let selectedMovie: Movie
+        if isSearching {
+            selectedMovie = filteredMovies[indexPath.row]
+        } else {
+            selectedMovie = viewModel.topRatedMovies[indexPath.row]
+        }
+        
+        let detailVC = DetailViewController(nibName: "DetailViewController", bundle: nil)
+        detailVC.movie = selectedMovie
+        navigationController!.pushViewController(detailVC, animated: true)
 
+    }
+}
 
 extension TopRatedViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {

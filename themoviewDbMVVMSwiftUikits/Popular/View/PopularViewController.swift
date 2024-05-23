@@ -26,7 +26,6 @@ class PopularViewController: UIViewController {
         debugPrint("View PopularViewController")
 //        view.backgroundColor = .gray
         setupSearchBar()
-        setupFilterView()
         setupTableView()
         fetchPopularMovies() // función para obtener los datos
         setupBindings() // configurar los observadores
@@ -46,10 +45,6 @@ class PopularViewController: UIViewController {
     
     func setupSearchBar() {
         searchBar?.delegate = self
-    }
-    
-    func setupFilterView() {
-        // vista de filtros, como agregar botones para "adult", "original_language", etc.
     }
     
     func setupTableView() {
@@ -99,19 +94,15 @@ extension PopularViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-            let selectedMovie: Movie
-            if isSearching {
-                selectedMovie = filteredMovies[indexPath.row]
-            } else {
-                selectedMovie = viewModel.popularMovies[indexPath.row]
-            }
-            
-            guard let detailVC = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController else {
-                return
-            }
-            detailVC.movie = selectedMovie
-            navigationController?.pushViewController(detailVC, animated: true)
+        let selectedMovie: Movie
+        if isSearching {
+            selectedMovie = filteredMovies[indexPath.row]
+        } else {
+            selectedMovie = viewModel.popularMovies[indexPath.row]
         }
+        
+        let detailVC = DetailViewController(nibName: "DetailViewController", bundle: nil)
+        detailVC.movie = selectedMovie
+        navigationController!.pushViewController(detailVC, animated: true)
     }
 }
